@@ -1,6 +1,6 @@
 # Env files (secrets)
 .env
-backend/.env
+.env
 
 # Python cache
 __pycache__/

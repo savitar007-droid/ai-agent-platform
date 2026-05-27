@@ -4,7 +4,7 @@
  */
 
 // ── Config ──────────────────────────────────────────────────────────────────
-const API_BASE = (window.location.port === "80" || window.location.port === "") ? "/api" : "http://127.0.0.1:8000";
+const API_BASE = "http://127.0.0.1:8000";
 // ── State ────────────────────────────────────────────────────────────────────
 let isLoading = false;
 let timerInterval = null;
